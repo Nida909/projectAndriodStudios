@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMilkInfo"
+    android:background="@drawable/milkbkg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Milk Details"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="25dp"
+        android:hint="Enter Milk Quantity"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="220dp"
+        android:background="@drawable/shape3"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:id="@+id/milkquantitiy"
+
+
+        />
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="25dp"
+        android:hint="Enter Milk Price"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="220dp"
+        android:background="@drawable/shape3"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:id="@+id/milkprice"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Milk Category"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="220dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    /*<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/radiogroup"
+    android:orientation="vertical"
+
+    >
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Goat Milk"
+        android:textColor="@color/white"
+        android:layout_marginLeft="220dp"
+        android:buttonTint="@color/white"
+        android:id="@+id/goatmilk"
+
+
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Cow Milk"
+        android:textColor="@color/white"
+        android:layout_marginLeft="220dp"
+
+        android:buttonTint="@color/white"
+        android:id="@+id/cowmilk"
+
+
+
+
+
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Baffalo Milk"
+        android:textColor="@color/white"
+        android:layout_marginLeft="220dp"
+
+        android:buttonTint="@color/white"
+        android:id="@+id/baffalomilk"
+
+
+
+        />
+
+
+
+
+
+</RadioGroup>*/
+
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Post Details"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:onClick="PostDetails"
+
+        />
+
+
+
+</LinearLayout>

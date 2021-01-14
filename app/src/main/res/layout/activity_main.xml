@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/black"
+        >
+        <ImageView
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:background="@drawable/cow"
+
+            />
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THE COMPLETE FOOD"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/milk3"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi! Who Are You?"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+
+            />
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Milk Man"
+            android:id="@+id/milkman"
+            android:layout_marginLeft="20dp"
+
+
+            />
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer"
+            android:id="@+id/customer"
+            android:layout_marginLeft="20dp"
+
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>

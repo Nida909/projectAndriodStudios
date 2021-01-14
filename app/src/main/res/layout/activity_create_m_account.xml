@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateMAccount"
+    android:orientation="vertical"
+    android:background="@drawable/bkg"
+    android:paddingLeft="70dp"
+    android:paddingRight="70dp">
+    <ImageView
+        android:layout_height="150dp"
+        android:layout_width="170dp"
+        android:src="@drawable/account"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE ACCOUNT"
+        android:textColor="@color/teal_200"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feed Us With Some Details"
+        android:textColor="@color/purple_200"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="15dp"
+
+        />
+
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your name"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:id="@+id/name"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your location"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+
+        android:id="@+id/location"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your email"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:id="@+id/email"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your password"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:id="@+id/password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your contact number"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:id="@+id/contactnumber"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Save Details"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/shape1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:onClick="SaveDetails"
+
+        />
+
+
+</LinearLayout>
